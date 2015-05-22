@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @print.name %>
+</p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @print.id %>
+</p>
+
+<p>
+  <strong>Estimated print time:</strong>
+  <%= @print.estimated_print_time %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @print.length %>
+</p>
+
+<p>
+  <strong>Last:</strong>
+  <%= @print.last %>
+</p>
+
+<%= link_to 'Edit', edit_print_path(@print) %> |
+<%= link_to 'Back', prints_path %>
